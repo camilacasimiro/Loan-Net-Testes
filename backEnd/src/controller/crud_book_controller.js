@@ -1,7 +1,7 @@
 const pool = require('../database/postgres');
 
 const jwt = require('jsonwebtoken');
-SECRET = process.env.SECRET;
+const SECRET = 'jheycftolls'
 // const getUser = require('./crud_user_controller');
 // console.log(getUser.getUserId("jennifer@gmail.com"));
 const createdBook = async (request, response) => {
